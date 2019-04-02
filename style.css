@@ -3,16 +3,12 @@ body{
 }
 nav{
     width: 100vw;
-    height: 50px;
+    height: 30px;
     background-color: red;
-display: flex;
-flex-direction: line;
+    display: flex;
+    flex-direction: line;
 justify-content: space-between;
 
-}
-
-nav img{
-    height: 20%;
 }
 
 nav .logo{
@@ -20,9 +16,10 @@ nav .logo{
     flex-direction: line;
     align-items: flex-start; /*ALINHAR NA VERTICAL*/
     justify-content: space-between; /*ALINHAR NA HORIZONTAL*/
-    background-color:white;
-    width: 20%;
-
+    background-color:rgb(121, 32, 32);
+    text-decoration: none;
+    width: 20%;    
+    
 }
 nav .menu{
     display:flex;
@@ -30,10 +27,10 @@ nav .menu{
     align-items: flex-end; /*ALINHAR NA VERTICAL*/
     justify-content: space-between; /*ALINHAR NA HORIZONTAL*/
     background-color:white;
-    width: 30%;
-
+    width: 20%;
+    text-decoration: none;
 }
-nav div:nth-child(1) img{
-    height: 45px;
+nav div img{
+    height: 30px;
     width: auto;
 }
