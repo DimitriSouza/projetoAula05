@@ -4,10 +4,9 @@ body{
 nav{
     width: 100vw;
     height: 30px;
-    background-color: red;
     display: flex;
     flex-direction: line;
-justify-content: space-between;
+    justify-content: space-between;
 
 }
 
@@ -16,7 +15,7 @@ nav .logo{
     flex-direction: line;
     align-items: flex-start; /*ALINHAR NA VERTICAL*/
     justify-content: space-between; /*ALINHAR NA HORIZONTAL*/
-    background-color:rgb(121, 32, 32);
+    background-color:white;
     text-decoration: none;
     width: 20%;    
     
@@ -28,9 +27,20 @@ nav .menu{
     justify-content: space-between; /*ALINHAR NA HORIZONTAL*/
     background-color:white;
     width: 20%;
+   
+}
+nav .menu div a{
     text-decoration: none;
 }
+nav .logo a{
+    text-decoration: none;
+    padding: 11px 32
+}
 nav div img{
-    height: 30px;
+    height: 20px;
     width: auto;
+}
+nav div{
+    padding: 11px 32px;
+    font-family: Arial, Helvetica, sans-serif;
 }
