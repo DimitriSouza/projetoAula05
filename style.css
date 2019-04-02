@@ -1,0 +1,39 @@
+body{
+    margin:0;
+}
+nav{
+    width: 100vw;
+    height: 50px;
+    background-color: red;
+display: flex;
+flex-direction: line;
+justify-content: space-between;
+
+}
+
+nav img{
+    height: 20%;
+}
+
+nav .logo{
+    display:flex;
+    flex-direction: line;
+    align-items: flex-start; /*ALINHAR NA VERTICAL*/
+    justify-content: space-between; /*ALINHAR NA HORIZONTAL*/
+    background-color:white;
+    width: 20%;
+
+}
+nav .menu{
+    display:flex;
+    flex-direction: line;
+    align-items: flex-end; /*ALINHAR NA VERTICAL*/
+    justify-content: space-between; /*ALINHAR NA HORIZONTAL*/
+    background-color:white;
+    width: 30%;
+
+}
+nav div:nth-child(1) img{
+    height: 45px;
+    width: auto;
+}
